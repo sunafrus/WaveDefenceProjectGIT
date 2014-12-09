@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: c2ea0105c14f7470db53af69a9d1033e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BearSpriteSheet
+    21300002: BearSpriteSheet_0
+    21300004: BearSpriteSheet_1
+    21300006: BearSpriteSheet_2
+    21300008: BearSpriteSheet_3
+    21300010: BearSpriteSheet_4
+    21300012: BearSpriteSheet_5
+    21300014: BearJump
+    21300016: BearIdle_0
+    21300018: BearIdle_1
+    21300020: BearIdle_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BearSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 87
+        width: 22
+        height: 39
+      alignment: 9
+      pivot: {x: .484497279, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 87
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: .437172949, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 87
+        width: 21
+        height: 39
+      alignment: 9
+      pivot: {x: .459397465, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 87
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: .44614771, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 45
+        width: 21
+        height: 39
+      alignment: 9
+      pivot: {x: .459397554, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 19
+        height: 38
+      alignment: 9
+      pivot: {x: .446148306, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearJump
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 19
+        height: 34
+      alignment: 9
+      pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearIdle_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearIdle_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 4
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BearIdle_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
