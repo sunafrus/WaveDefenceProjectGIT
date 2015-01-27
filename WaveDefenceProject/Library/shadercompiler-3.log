@@ -1,0 +1,68 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-3--1335074816
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=0 type=0 insize=5046 outsize=1796 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4780 outsize=1927 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4780 outsize=427 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2465 outsize=854 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2465 outsize=756 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1561 outsize=487 kw=SOFTPARTICLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3030 outsize=5241 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3030 outsize=6 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=6260 kw=LIGHT_ON_SCREEN SPOT_SHAFTS SHOW_SAMPLES_OFF QUAD_SHAFTS FLIP_WORKAROUND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=6352 kw=LIGHT_ON_SCREEN SPOT_SHAFTS SHOW_SAMPLES_OFF FLIP_WORKAROUND_ON FRUSTUM_SHAFTS ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=6595 kw=LIGHT_ON_SCREEN SPOT_SHAFTS QUAD_SHAFTS FLIP_WORKAROUND_ON SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=6679 kw=LIGHT_ON_SCREEN SPOT_SHAFTS FLIP_WORKAROUND_ON FRUSTUM_SHAFTS SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=5931 kw=DIRECTIONAL_SHAFTS LIGHT_OFF_SCREEN SHOW_SAMPLES_OFF FLIP_WORKAROUND_OFF FRUSTUM_SHAFTS ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=6178 kw=DIRECTIONAL_SHAFTS LIGHT_OFF_SCREEN QUAD_SHAFTS FLIP_WORKAROUND_OFF SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=7019 outsize=7360 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN QUAD_SHAFTS FLIP_WORKAROUND_OFF SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=LIGHT_ON_SCREEN DIRECTIONAL_SHAFTS SHOW_SAMPLES_OFF QUAD_SHAFTS FLIP_WORKAROUND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=LIGHT_ON_SCREEN DIRECTIONAL_SHAFTS SHOW_SAMPLES_OFF FLIP_WORKAROUND_ON FRUSTUM_SHAFTS ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=LIGHT_ON_SCREEN SPOT_SHAFTS QUAD_SHAFTS FLIP_WORKAROUND_OFF SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=LIGHT_ON_SCREEN SPOT_SHAFTS FLIP_WORKAROUND_OFF FRUSTUM_SHAFTS SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN SHOW_SAMPLES_OFF QUAD_SHAFTS FLIP_WORKAROUND_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN SHOW_SAMPLES_OFF FLIP_WORKAROUND_OFF FRUSTUM_SHAFTS ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=SPOT_SHAFTS LIGHT_OFF_SCREEN QUAD_SHAFTS FLIP_WORKAROUND_OFF SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=7019 outsize=6 kw=DIRECTIONAL_SHAFTS LIGHT_OFF_SCREEN FLIP_WORKAROUND_ON FRUSTUM_SHAFTS SHOW_SAMPLES_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4328 outsize=3930 kw=DIRECTIONAL_SHAFTS COLORED_ON ATTENUATION_CURVE_ON COOKIE_TEX_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4328 outsize=5320 kw=SPOT_SHAFTS COLORED_ON COOKIE_TEX_ON ATTENUATION_CURVE_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4328 outsize=5428 kw=SPOT_SHAFTS ATTENUATION_CURVE_ON COOKIE_TEX_OFF COLORED_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4328 outsize=6 kw=SPOT_SHAFTS COLORED_ON ATTENUATION_CURVE_ON COOKIE_TEX_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4328 outsize=6 kw=SPOT_SHAFTS COLORED_ON COOKIE_TEX_OFF ATTENUATION_CURVE_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4328 outsize=6 kw=SPOT_SHAFTS ATTENUATION_CURVE_ON COOKIE_TEX_ON COLORED_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4328 outsize=6 kw=SPOT_SHAFTS COOKIE_TEX_ON ATTENUATION_CURVE_OFF COLORED_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1537 outsize=488 kw=SOFTPARTICLES_ON ok=1
+End of pipe
+
+Quitting shader compiler process

@@ -1,0 +1,115 @@
+\hypertarget{class_game_master}{}\section{Game\+Master Class Reference}
+\label{class_game_master}\index{Game\+Master@{Game\+Master}}
+Inheritance diagram for Game\+Master\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_master}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+Enumerator \hyperlink{class_game_master_a77c6806b751ee10f5bf89b55573a7dda}{Respawn\+Player} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_game_master_a21f46b5da1508cdbde26212cbd0708b3}{Kill\+Player} (\hyperlink{class_player}{Player} player)
+\item 
+static void \hyperlink{class_game_master_a87feaa0e8f190a7bb92243f1ce1afafc}{Kill\+Enemy} (\hyperlink{class_enemy}{Enemy} enemy)
+\item 
+static void \hyperlink{class_game_master_a7f822971393cd0a76ffc4c09760223f7}{Add\+Lives} (int number)
+\item 
+static bool \hyperlink{class_game_master_adcf885b9e651320765edfee712e7b7a1}{Has\+Lives} ()
+\item 
+static int \hyperlink{class_game_master_aad339a3d782e271ab40c7dd28cef8d85}{number\+Of\+Lives\+Left} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Particle\+System \hyperlink{class_game_master_af851877a5f2fa75f179c3f82fd85d9ef}{ps}
+\item 
+Transform \hyperlink{class_game_master_a03fea48bb3322c633342ce9314ae3a0e}{player\+Prefab}
+\item 
+Transform \hyperlink{class_game_master_a09f56fd1553c0f3b240da4272294eaae}{spawn\+Point}
+\item 
+float \hyperlink{class_game_master_a1d87aa56643ac05f8b36631610bf1093}{spawn\+Delay} = 2.\+0f
+\item 
+int \hyperlink{class_game_master_a4777acbbe6426456622befaf4665be8a}{Lives\+Remaining} = 3
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_game_master}{Game\+Master} \hyperlink{class_game_master_a98cbae96fea43049eda4842ac609625a}{gm}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_game_master_a7f822971393cd0a76ffc4c09760223f7}{}\index{Game\+Master@{Game\+Master}!Add\+Lives@{Add\+Lives}}
+\index{Add\+Lives@{Add\+Lives}!Game\+Master@{Game\+Master}}
+\subsubsection[{Add\+Lives}]{\setlength{\rightskip}{0pt plus 5cm}static void Game\+Master.\+Add\+Lives (
+\begin{DoxyParamCaption}
+\item[{int}]{number}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_a7f822971393cd0a76ffc4c09760223f7}
+\hypertarget{class_game_master_adcf885b9e651320765edfee712e7b7a1}{}\index{Game\+Master@{Game\+Master}!Has\+Lives@{Has\+Lives}}
+\index{Has\+Lives@{Has\+Lives}!Game\+Master@{Game\+Master}}
+\subsubsection[{Has\+Lives}]{\setlength{\rightskip}{0pt plus 5cm}static bool Game\+Master.\+Has\+Lives (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_adcf885b9e651320765edfee712e7b7a1}
+\hypertarget{class_game_master_a87feaa0e8f190a7bb92243f1ce1afafc}{}\index{Game\+Master@{Game\+Master}!Kill\+Enemy@{Kill\+Enemy}}
+\index{Kill\+Enemy@{Kill\+Enemy}!Game\+Master@{Game\+Master}}
+\subsubsection[{Kill\+Enemy}]{\setlength{\rightskip}{0pt plus 5cm}static void Game\+Master.\+Kill\+Enemy (
+\begin{DoxyParamCaption}
+\item[{{\bf Enemy}}]{enemy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_a87feaa0e8f190a7bb92243f1ce1afafc}
+\hypertarget{class_game_master_a21f46b5da1508cdbde26212cbd0708b3}{}\index{Game\+Master@{Game\+Master}!Kill\+Player@{Kill\+Player}}
+\index{Kill\+Player@{Kill\+Player}!Game\+Master@{Game\+Master}}
+\subsubsection[{Kill\+Player}]{\setlength{\rightskip}{0pt plus 5cm}static void Game\+Master.\+Kill\+Player (
+\begin{DoxyParamCaption}
+\item[{{\bf Player}}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_a21f46b5da1508cdbde26212cbd0708b3}
+\hypertarget{class_game_master_aad339a3d782e271ab40c7dd28cef8d85}{}\index{Game\+Master@{Game\+Master}!number\+Of\+Lives\+Left@{number\+Of\+Lives\+Left}}
+\index{number\+Of\+Lives\+Left@{number\+Of\+Lives\+Left}!Game\+Master@{Game\+Master}}
+\subsubsection[{number\+Of\+Lives\+Left}]{\setlength{\rightskip}{0pt plus 5cm}static int Game\+Master.\+number\+Of\+Lives\+Left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_aad339a3d782e271ab40c7dd28cef8d85}
+\hypertarget{class_game_master_a77c6806b751ee10f5bf89b55573a7dda}{}\index{Game\+Master@{Game\+Master}!Respawn\+Player@{Respawn\+Player}}
+\index{Respawn\+Player@{Respawn\+Player}!Game\+Master@{Game\+Master}}
+\subsubsection[{Respawn\+Player}]{\setlength{\rightskip}{0pt plus 5cm}I\+Enumerator Game\+Master.\+Respawn\+Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_game_master_a77c6806b751ee10f5bf89b55573a7dda}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_game_master_a98cbae96fea43049eda4842ac609625a}{}\index{Game\+Master@{Game\+Master}!gm@{gm}}
+\index{gm@{gm}!Game\+Master@{Game\+Master}}
+\subsubsection[{gm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Master} Game\+Master.\+gm\hspace{0.3cm}{\ttfamily [static]}}\label{class_game_master_a98cbae96fea43049eda4842ac609625a}
+\hypertarget{class_game_master_a4777acbbe6426456622befaf4665be8a}{}\index{Game\+Master@{Game\+Master}!Lives\+Remaining@{Lives\+Remaining}}
+\index{Lives\+Remaining@{Lives\+Remaining}!Game\+Master@{Game\+Master}}
+\subsubsection[{Lives\+Remaining}]{\setlength{\rightskip}{0pt plus 5cm}int Game\+Master.\+Lives\+Remaining = 3}\label{class_game_master_a4777acbbe6426456622befaf4665be8a}
+\hypertarget{class_game_master_a03fea48bb3322c633342ce9314ae3a0e}{}\index{Game\+Master@{Game\+Master}!player\+Prefab@{player\+Prefab}}
+\index{player\+Prefab@{player\+Prefab}!Game\+Master@{Game\+Master}}
+\subsubsection[{player\+Prefab}]{\setlength{\rightskip}{0pt plus 5cm}Transform Game\+Master.\+player\+Prefab}\label{class_game_master_a03fea48bb3322c633342ce9314ae3a0e}
+\hypertarget{class_game_master_af851877a5f2fa75f179c3f82fd85d9ef}{}\index{Game\+Master@{Game\+Master}!ps@{ps}}
+\index{ps@{ps}!Game\+Master@{Game\+Master}}
+\subsubsection[{ps}]{\setlength{\rightskip}{0pt plus 5cm}Particle\+System Game\+Master.\+ps}\label{class_game_master_af851877a5f2fa75f179c3f82fd85d9ef}
+\hypertarget{class_game_master_a1d87aa56643ac05f8b36631610bf1093}{}\index{Game\+Master@{Game\+Master}!spawn\+Delay@{spawn\+Delay}}
+\index{spawn\+Delay@{spawn\+Delay}!Game\+Master@{Game\+Master}}
+\subsubsection[{spawn\+Delay}]{\setlength{\rightskip}{0pt plus 5cm}float Game\+Master.\+spawn\+Delay = 2.\+0f}\label{class_game_master_a1d87aa56643ac05f8b36631610bf1093}
+\hypertarget{class_game_master_a09f56fd1553c0f3b240da4272294eaae}{}\index{Game\+Master@{Game\+Master}!spawn\+Point@{spawn\+Point}}
+\index{spawn\+Point@{spawn\+Point}!Game\+Master@{Game\+Master}}
+\subsubsection[{spawn\+Point}]{\setlength{\rightskip}{0pt plus 5cm}Transform Game\+Master.\+spawn\+Point}\label{class_game_master_a09f56fd1553c0f3b240da4272294eaae}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\hyperlink{_game_master_8cs}{Game\+Master.\+cs}\end{DoxyCompactItemize}
