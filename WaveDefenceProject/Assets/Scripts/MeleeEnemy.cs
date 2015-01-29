@@ -38,29 +38,26 @@ public class MeleeEnemy : Enemy {
 
 
 		//move towards the player
-		if (nextToPlayer == false)
+
+		if (targetIsRight)
 		{
-
-			if (targetIsRight)
-			{
-				rigidbody2D.velocity = new Vector2(enemyStats.Speed, rigidbody2D.velocity.y);
-			}
-			else
-			{
-				rigidbody2D.velocity = new Vector2(-enemyStats.Speed, rigidbody2D.velocity.y);
-			}
-
-
-			if (rigidbody2D.velocity.x < 0.3f)
-			{
-
-				if (rigidbody2D.velocity.x > -0.3f)
-				{
-					rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, enemyStats.Speed);
-				}
-			}
-
+			rigidbody2D.velocity = new Vector2(enemyStats.Speed, rigidbody2D.velocity.y);
 		}
+		else
+		{
+			rigidbody2D.velocity = new Vector2(-enemyStats.Speed, rigidbody2D.velocity.y);
+		}
+	
+	
+		if (rigidbody2D.velocity.x < 0.3f)
+		{
+		
+			if (rigidbody2D.velocity.x > -0.3f)
+			{
+				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, enemyStats.Speed);
+			}
+		}
+
 
 	
 	}

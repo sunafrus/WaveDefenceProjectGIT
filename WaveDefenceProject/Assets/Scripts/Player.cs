@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
 		}
 
+
+
 	}
 
 	public void DamagePlayer (int damage)
@@ -33,6 +35,11 @@ public class Player : MonoBehaviour
 
 	}
 
+	public int getHealth()
+	{
+		return playerStats.Health;
+	}
+
 	void OnCollisionEnter2D(Collision2D other)
 	{
 		//If the player hits a melee enemy have them attack/harm the player
@@ -44,7 +51,6 @@ public class Player : MonoBehaviour
 
 	void OnCollisionStay2D(Collision2D other)
 	{
-
 		//If the player stays in contact with a melee enemy have them attack/harm the player repeatedly
 		if (other.gameObject.tag == "MeleeEnemy")
 		{

@@ -65,7 +65,7 @@ public class GameMaster : MonoBehaviour
 		return (gm.LivesRemaining > 0) ? true : false;
 	}
 
-	public static int numberOfLivesLeft ()
+	public int numberOfLivesLeft ()
 	{
 		return gm.LivesRemaining;
 	}
