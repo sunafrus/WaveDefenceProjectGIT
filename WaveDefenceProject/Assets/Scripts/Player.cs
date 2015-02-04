@@ -6,11 +6,24 @@ public class Player : MonoBehaviour
 	public class PlayerStats
 	{
 		public int Health = 100;
+		public int normalAttackDamage = 30;
+		public float attackTime = 0.3f;
 	}
 
 	public PlayerStats playerStats = new PlayerStats ();
 
 	public int fallBoundary = -20;
+
+	bool attacking = false;
+	private float nextTimeToAttack = 0f;
+
+	
+	public float NextTimeToAttack
+	{
+		get{ return nextTimeToAttack; }
+		
+		set{ nextTimeToAttack = value; }
+	}
 
 	void Update ()
 	{
@@ -20,10 +33,18 @@ public class Player : MonoBehaviour
 
 		}
 
+		if (nextTimeToAttack <= Time.time)
+		{
+			attacking = false;
+		}
 
+		if (Input.GetMouseButtonDown (0) && attacking == false)
+						attacking = true;
+										     
 
+		
 	}
-
+	
 	public void DamagePlayer (int damage)
 	{
 		playerStats.Health -= damage;
@@ -38,6 +59,16 @@ public class Player : MonoBehaviour
 	public int getHealth()
 	{
 		return playerStats.Health;
+	}
+
+	public int getNormalAttackDamage()
+	{
+		return playerStats.normalAttackDamage;
+	}
+
+	public bool isAttacking()
+	{
+		return attacking;
 	}
 
 	void OnCollisionEnter2D(Collision2D other)

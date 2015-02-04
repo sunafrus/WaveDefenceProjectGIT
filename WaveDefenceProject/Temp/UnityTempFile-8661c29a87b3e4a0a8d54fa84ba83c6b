@@ -1,13 +1,12 @@
 -target:library
--i:UnityEngine
--i:System.Collections
--base:UnityEngine.MonoBehaviour
--nowarn:BCW0016
--nowarn:BCW0003
--method:Main
--out:Temp/Assembly-UnityScript.dll
--x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-nowarn:0169
+-out:'Temp/Assembly-CSharp-Editor.dll'
 -debug
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll'
 -define:UNITY_4_5_3
 -define:UNITY_4_5
 -define:UNITY_STANDALONE_OSX
@@ -44,10 +43,9 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
--i:UnityEditor
-'Assets/Sample Assets/Effects/Image Effects (Pro Only)/Scripts/DepthOfFieldScatter.js'
-'Assets/Sample Assets/Effects/Image Effects (Pro Only)/Scripts/PostEffectsBase.js'
-'Assets/Sample Assets/Utility/DragRigidbody.js'
-'Assets/Sample Assets/Utility/TimedObjectDestructor.js'
+'Assets/Sample Assets/Cameras/Scripts/Editor/AutoCamInspector.cs'
+'Assets/Sample Assets/Cameras/Scripts/Editor/FreeLookCamInspector.cs'
+'Assets/Sample Assets/Cross Platform Input/Scripts/Editor/CrossPlatformInputInitialize.cs'
+'Assets/Sample Assets/Vehicles/Car/Scripts/Editor/WheelEditor.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll'

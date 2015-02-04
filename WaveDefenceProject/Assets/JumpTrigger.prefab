@@ -51,8 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 877e69b761ba84f94a959bb87e3d5334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpRight: 1
-  jumpLeft: 0
+  jumpRight: 0
+  jumpLeft: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

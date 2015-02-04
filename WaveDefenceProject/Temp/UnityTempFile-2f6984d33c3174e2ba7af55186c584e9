@@ -40,9 +40,8 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
-'Assets/MeleeWeaponAttack.cs'
+'Assets/MeleeAttackRange.cs'
 'Assets/Sample Assets/2D/Scripts/CameraFollow.cs'
-'Assets/Sample Assets/2D/Scripts/PlatformerCharacter2D.cs'
 'Assets/Sample Assets/2D/Scripts/Restarter.cs'
 'Assets/Sample Assets/Cameras/Scripts/AbstractTargetFollower.cs'
 'Assets/Sample Assets/Cameras/Scripts/AutoCam.cs'
@@ -140,6 +139,7 @@
 'Assets/Scripts/JumpTrigger.cs'
 'Assets/Scripts/MeleeEnemy.cs'
 'Assets/Scripts/Platformer2DUserControl.cs'
+'Assets/Scripts/PlatformerCharacter2D.cs'
 'Assets/Scripts/Player.cs'
 'Assets/Scripts/Reload.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

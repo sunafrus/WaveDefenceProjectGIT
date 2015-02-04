@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\MeleeAttackRange.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Restarter.cs" />
      <Compile Include="Assets\Sample Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Sample Assets\Cameras\Scripts\AutoCam.cs" />
@@ -146,6 +145,7 @@
      <Compile Include="Assets\Scripts\JumpTrigger.cs" />
      <Compile Include="Assets\Scripts\MeleeEnemy.cs" />
      <Compile Include="Assets\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Reload.cs" />
      <None Include="Assets\Sample Assets\Effects\Toon Shading\Shaders\Toony-Basic.shader" />

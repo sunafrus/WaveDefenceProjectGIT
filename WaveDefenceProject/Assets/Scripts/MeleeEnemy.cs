@@ -14,9 +14,11 @@ public class MeleeEnemy : Enemy {
 
 	void Start ()
 	{
+		enemyStats.Health = 100;
 		enemyStats.Speed = 3;
 		enemyStats.jumpSpeed = 5;
 		enemyStats.attackTime = 0.5f;
+		enemyStats.knockbackMultiplier = 25f;
 	}
 
 	// Update is called once per frame
@@ -57,6 +59,8 @@ public class MeleeEnemy : Enemy {
 				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, enemyStats.Speed);
 			}
 		}
+
+
 
 
 	
