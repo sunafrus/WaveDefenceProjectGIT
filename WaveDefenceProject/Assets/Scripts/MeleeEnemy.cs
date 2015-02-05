@@ -8,7 +8,7 @@ public class MeleeEnemy : Enemy {
 	public Collider2D targetCollider;
 
 	bool attacking = false;
-	int normalDamage = 20;
+	int normalDamage = 0;
 	float nextTimeToAttack = 0f;
 	
 
@@ -18,7 +18,7 @@ public class MeleeEnemy : Enemy {
 		enemyStats.Speed = 3;
 		enemyStats.jumpSpeed = 5;
 		enemyStats.attackTime = 0.5f;
-		enemyStats.knockbackMultiplier = 25f;
+		enemyStats.knockbackMultiplier = 10f;
 	}
 
 	// Update is called once per frame
@@ -41,22 +41,25 @@ public class MeleeEnemy : Enemy {
 
 		//move towards the player
 
-		if (targetIsRight)
+		if(!enemyStats.beingKnockedBack)
 		{
-			rigidbody2D.velocity = new Vector2(enemyStats.Speed, rigidbody2D.velocity.y);
-		}
-		else
-		{
-			rigidbody2D.velocity = new Vector2(-enemyStats.Speed, rigidbody2D.velocity.y);
-		}
-	
-	
-		if (rigidbody2D.velocity.x < 0.3f)
-		{
-		
-			if (rigidbody2D.velocity.x > -0.3f)
+			if (targetIsRight)
 			{
-				rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, enemyStats.Speed);
+				rigidbody2D.velocity = new Vector2(enemyStats.Speed, rigidbody2D.velocity.y);
+			}
+			else
+			{
+				rigidbody2D.velocity = new Vector2(-enemyStats.Speed, rigidbody2D.velocity.y);
+			}
+		
+		
+			if (rigidbody2D.velocity.x < 0.3f)
+			{
+			
+				if (rigidbody2D.velocity.x > -0.3f)
+				{
+					rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, enemyStats.Speed);
+				}
 			}
 		}
 
@@ -77,5 +80,36 @@ public class MeleeEnemy : Enemy {
 			attacking = true;
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "Ground")
+		{
+			enemyStats.beingKnockedBack = false;
+
+			Debug.Log (gameObject + " has recovered from knockback.");
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 }

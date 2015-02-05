@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 	{
 		public int Health = 100;
 		public int normalAttackDamage = 30;
-		public float attackTime = 0.3f;
+		public float attackTime = 0f;
 	}
 
 	public PlayerStats playerStats = new PlayerStats ();

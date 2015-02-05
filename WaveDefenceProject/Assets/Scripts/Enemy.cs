@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour {
 		public float jumpSpeed;
 		public float attackTime;
 		public float knockbackMultiplier;
+
+		public bool beingKnockedBack = false;
 	}
 
 	public EnemyStats enemyStats = new EnemyStats ();
@@ -28,8 +30,10 @@ public class Enemy : MonoBehaviour {
 			GameMaster.KillEnemy(this);
 		}
 
-		knockback (damage, origin);
-		
+		if (!enemyStats.beingKnockedBack)
+		{
+			knockback (damage, origin);
+		}
 	}
 
 	public void knockback(int damage, Vector2 origin)
@@ -42,6 +46,7 @@ public class Enemy : MonoBehaviour {
 
 		Debug.Log (gameObject + " has had knockback applied to it in direction: " + knockbackDirection);
 
+		enemyStats.beingKnockedBack = true;
 		rigidbody2D.AddForce (knockbackVector, mode);
 
 	} 
